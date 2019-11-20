@@ -1,0 +1,19 @@
+[user]
+	name = tuskerette
+        email = xxx@gmail.com
+[push]
+        default = current
+[branch]
+        autosetuprebase = always
+[color]
+        ui = true
+[alias]
+        st = status
+        co = checkout
+	gl = git pull
+[core]
+        excludesfile = ~/.gitignore_global
+[credential]
+	helper = cache --timeout=663600
+	# when working on Mac
+	# helper = osxkeychain

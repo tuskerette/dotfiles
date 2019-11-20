@@ -1,0 +1,27 @@
+set number
+set nocompatible
+set backspace=indent,eol,start
+
+" mostly does the right thing
+set smartindent
+
+" Ruby
+syntax on
+
+" set mapleader
+let mapleader = "\<Space>"
+
+" select all files and copy
+nmap <Leader>co ggVG*y
+
+" binding.pry
+nmap <Leader>bp binding.pry<esc>:w<cr>
+
+" Go down wrapped lines
+nmap k gk
+nmap j gj
+
+ " other ways to escape
+imap jk <esc>
+imap kj <esc>
+
